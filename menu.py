@@ -4,8 +4,8 @@ Created on Sep 2, 2015
 @author: Sameer Adhikari
 '''
 import abc, sys
-from notebook.book import Notebook
-from notebook.note import Note
+from book import Notebook
+from note import Note
 
 class Menu(object):
     '''Abstract class for the interface that the  

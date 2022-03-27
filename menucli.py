@@ -4,8 +4,8 @@ Created on Sep 3, 2015
 @author: Sameer Adhikari
 '''
 
-from notebook.menu import Menu
-from notebook.book import Notebook
+from menu import Menu
+from book import Notebook
 
 class MenuCLI(Menu):
     '''A class that provides a command line interface for the menu.

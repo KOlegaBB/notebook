@@ -3,7 +3,7 @@ Created on Aug 31, 2015
 
 @author: Sameer Adhikari
 '''
-from notebook.note import Note
+from note import Note
 
 class Notebook(object):
     '''
