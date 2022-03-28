@@ -55,7 +55,7 @@ class Notebook(object):
         
     def get_note_tags(self, note_id):
         '''Find note with the given id and 
-        return its text
+        return its tags
         '''
         note = self._find_note(note_id=note_id)  
         return note.note_tags
